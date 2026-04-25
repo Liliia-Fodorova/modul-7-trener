@@ -1,0 +1,18 @@
+body{
+    background: rgb(214, 245, 129);
+}
+
+#colorBtn {
+   
+    background: rgb(237, 109, 11);
+    transition: background-color 0.3s;
+}
+
+#colorBtn.active {
+    background: rgba(136, 6, 118, 0.747);
+}
+#toggleBtn{
+    background: burlywood;
+}
+
+
