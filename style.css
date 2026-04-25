@@ -6,13 +6,28 @@ body{
    
     background: rgb(237, 109, 11);
     transition: background-color 0.3s;
+    width: 130px;
+    height: 35px;
 }
-
+#box{
+    margin: 8px;
+}
+#btn{
+    background: rgb(98, 98, 240);
+    border-radius: 4px;
+    width: 130px;
+    height: 35px;
+}
 #colorBtn.active {
     background: rgba(136, 6, 118, 0.747);
 }
+
 #toggleBtn{
     background: burlywood;
+    width: 140px;
+    height: 40px;
 }
 
-
+#text{
+    font-size: 24px;
+}
