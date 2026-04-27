@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ФОРМА РЕГИСТРАЦИИ</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <p><a class="text-p" href="./index.html">Go back</a></p>
+    <h4>ФОРМА РЕГИСТРАЦИИ</h4>
+    <form id="registerForm">
+      <div class="form-group">
+        <label for="firstName"></label>
+        <input
+          class="form-input"
+          type="text"
+          name="firstName"
+          placeholder="Имя"
+        />
+      </div>
+      <div class="form-group">
+        <label for="lastName"></label>
+        <input
+          class="form-input"
+          type="text"
+          name="lastName"
+          placeholder="Фамилия"
+        />
+      </div>
+      <div class="form-group">
+        <label for="email"></label>
+        <input
+          class="form-input"
+          type="email"
+          name="email"
+          placeholder="email"
+        />
+      </div>
+      <div class="form-group">
+        <label for="phone"></label>
+        <input
+          class="form-input"
+          type="tel"
+          name="phone"
+          placeholder="+380..."
+        />
+      </div>
+      <button class="btnForm" type="submit">Отправить</button>
+    </form>
+
+    <script src="./js/task-6.js"></script>
+  </body>
+</html>

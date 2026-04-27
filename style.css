@@ -72,3 +72,22 @@ body{
     object-fit: cover;
 
 }
+.form-group{
+  padding: 3px;
+    
+}
+.form-input{
+    width: 200px;
+    height: 30px;
+    border-radius: 4px;
+}
+
+   
+.btnForm{
+    margin-top: 4px;
+    align-items: center;
+    padding: 4px;
+    width: 210px;
+    border-radius: 4px;
+    margin-left: 2px;
+}
